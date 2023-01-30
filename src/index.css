@@ -2,25 +2,22 @@
   box-sizing: border-box;
 }
 
-#root {
-  width: inherit;
-  height: inherit;
-}
-html,
-body {
+html, body {
+  width: 100vw;
+  height: 100vh;
   margin: 0px;
   padding: 0px;
 }
 
-body {
-  display: grid;
-  width: 100vw;
-  height: 100vh;
+#root {
+  width: inherit;
+  height: inherit;
   margin: 0px;
+  padding: 0px;
 }
 
 nav {
-  width: 100%;
+  width: 100vw;
   height: 65px;
   display: flex;
   justify-content: space-between;
@@ -59,7 +56,8 @@ nav {
 }
 .box {
   padding: 0px 36px;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .input {
@@ -82,8 +80,6 @@ input {
  
 }
 
-
-
 section > div{
   display: grid;
   grid-template-columns: repeat(2, 50%);
@@ -97,7 +93,6 @@ section {
 .btn {
   display: flex;
   justify-content: center;
-  
 }
 
 button{
@@ -121,6 +116,14 @@ p {
   color: #FFFFFF;
   margin: 0px;
   
+}
+.img{
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 100%;
+  max-width: 477px;
 }
 span {
   margin-left: 5px;

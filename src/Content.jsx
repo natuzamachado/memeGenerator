@@ -16,7 +16,7 @@ export default function Content(){
                     </button>
                </div>  
             </section>
-            <img src = {memeImg}/>
+            <div className="img"> <img src={memeImg} /></div> 
         </div>
     )
 }
