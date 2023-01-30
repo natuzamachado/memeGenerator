@@ -7,8 +7,8 @@ export default function Content(){
         <div className="box">
             <section>
                <div className="input">
-                    <input placeholder="Shut up"></input>
-                    <input placeholder="and take my money"></input>
+                    <input type= "text" placeholder="Shut up"></input>
+                    <input type = "text" placeholder="and take my money"></input>
                </div>
                <div className="btn">
                     <button>

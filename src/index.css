@@ -71,7 +71,7 @@ input {
   border: 1px solid #D5D4D8;
   padding-left: 10px;
   height: 35px;
-  width: 230px;
+  max-width: 230px;
   width: 100%;
   font-family: 'Karla';
   font-style: normal;
@@ -79,7 +79,10 @@ input {
   font-size: 12px;
  
 }
-
+input:focus {
+  outline-style: solid;
+  outline-color: rgb(193, 7, 88);
+}
 section > div{
   display: grid;
   grid-column-gap: 17px;
