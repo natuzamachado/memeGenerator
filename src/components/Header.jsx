@@ -1,6 +1,6 @@
 import React from "react";
-import trollFace  from "../public/trollFace.png"
-import './index.css'
+import trollFace  from "../../public/trollFace.png"
+import '../index.css'
 
 export default function Header(){
     return(
