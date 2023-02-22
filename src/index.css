@@ -164,15 +164,41 @@ span {
   bottom: 0;
 }
 
+@media all and (max-width: 600px) {
 
-@media all and (max-width: 290px) {
-
-.nav-bar > p {
-    font-size: .8rem;  
+  .nav-bar>p {
+    font-size: .8rem;
   }
 
-#title {
-  font-size: 10px;
+  #title {
+    font-size: 10px;
+  }
+
+  .meme--text {
+    font-size: 1.3em;
+    text-shadow:
+      .8px .8px 0 #000,
+      -.8px -.8px 0 #000,
+      .8px -.8px 0 #000,
+      -.8px .8px 0 #000,
+      0 .8px 0 #000,
+      .8px 0 0 #000,
+      0 -.8px 0 #000,
+      -.8px 0 0 #000,
+      .8px .8px 1px #000;
+  }
 }
+@media all and (max-width: 450px) {
+
+.meme--text{
+  font-size: .8em;
   
+}
+}
+@media all and (max-width: 360px) {
+
+  .meme--text {
+    font-size: .75em;
+   
+  }
 }
